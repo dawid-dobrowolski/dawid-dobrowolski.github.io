@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SneakerDrop</title>
+    <link rel="stylesheet" href="articleStyles.css">
+    <script src="menuToggle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" ></script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav id="menu" class>
+            <a href="index2.html" class="navlogo"><img id="test" src="logo.png"></a>
+            <ul id="menu-list" >
+                <li><a href="index2.html">DropList</a></li>
+                <li><a href="#h">News</a></li>
+                <li><a href="#h">Contact</a></li>
+            </ul>
+            <i onclick="toggleMenu()" id="menu-collapser" class="fa fa-bars hidden"></i>
+        </nav>
+        <script>
+            $(document).ready(function(){
+                $(window).bind('scroll',function(){
+                    var gap = 50;
+                    if($(window).scrollTop() > gap){
+                        $('nav').addClass('active');
+                    }else{
+                        $('nav').removeClass('active')
+                    }
+                })
+            })
+        </script>
+        <section class="article">
+            <div class="article-box">
+                    <div class="article-main">
+                        <img src="articlePhoto.webp"/>
+                        <h3>Trophy Room’s Air Jordan 7 Collaboration Remembers
+                            The 1992 Barcelona Olympics</h3>
+                    </div>
+                    <div class="article-author">
+                        <p>September 16,2023<br>by William Smith</p>
+                    </div>
+                    <div class="article-content">
+                       <p>Despite the alleged “back-door “controversy surrounding
+                            their Air Jordan 1 collaborative release, it’s clear that
+                            the shop run by Jordan’s son will not get the “freeze out”
+                            treatment moving forward. In fact, official images of their
+                            next project around the Air Jordan 7 Retro have surfaced,
+                            revealing a spirited design that packs in a variety of
+                            pristine details that likely tells the story of Michael
+                            Jordan’s triumphs in international play.</p>
+                       <p>Obviously inspired by the 1992 Olympics in Barcelona,
+                            this Air Jordan 7 sees the colors of the Olympic ring on
+                            the heel-tab, sitting above a golden accessory piece 
+                            attached to the arrowhead. Touches of red, gold, and
+                            navy return, drawing comparisons to the Air Jordan 7
+                            “Olympic”, while a luxurious beige suede replaces the
+                            standard white leather. Furthermore, MJ’s insignia is
+                            pressed into the heel, while the Trophy Room logo sits
+                            on the left insole. Finally, “New sheriff in town”, an
+                            excerpt of Michael Jordan’s infamous quote to Larry 
+                            Bird and Magic Johnson during their international travels,
+                            is embroidered behind the tongue.</p>
+                       <p>For now, check out a look at these official images and stay 
+                            tuned as we learn more about the Trophy Room Air Jordan 7 release.</p> 
+                        <p>
+                            <img src="articlePhoto1.webp"/>
+                            <br><br>
+                            <img src="articlePhoto2.webp"/>
+                            <br><br>
+                            <img src="articlePhoto3.webp"/>
+                            <br><br>
+                            <img src="articlePhoto4.webp"/>
+                            <br><br>
+                            <img src="articlePhoto5.webp"/>
+                            <br><br>
+                            <img src="articlePhoto6.webp"/>
+                            <br><br>
+                            <img src="articlePhoto7.webp"/>
+                            <br><br>
+                            <img src="articlePhoto8.webp"/>
+                            <br><br>
+                            <img src="articlePhoto9.webp"/>
+                            <br><br>
+                            <img src="articlePhoto10.webp"/>
+                            <br><br>
+                            <img src="articlePhoto11.webp"/>
+                            <br><br>
+                            <img src="articlePhoto12.webp"/>
+                            <br><br>
+                        </p>
+                    </div>
+            </div>
+        </section>
+        <section class="info">
+            <div class="info-container">
+                <div class="info-row">
+                    <div class="info-col">
+                        <h4>SneakerDrop</h4>
+                        <ul>
+                            <li><a href="#">Droping List</a></li>
+                            <li><a href="#">News</a></li>
+                        </ul>
+                    </div>
+                    <div class="info-col">
+                        <h4>Information</h4>
+                        <ul>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="info-col">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="#">Mail</a></li>
+                            <li><a href="#">Address</a></li>
+                            <li><a href="#">Social Media</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>SneakerDrop &copy; 2022</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body 
+{
+    background-color: #1c1c1b;
+}
+#main-div 
+{
+    background-color: #1B2430;
+}
+.topnav 
+{
+    background-color: #1c1c1b;
+    
+}
+.topnav a
+{
+    float:left;
+    text-align: center;
+    font-size: 15px;
+    padding : 10px 15px;
+    width: 25%;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #141822;
+    color: #908EDF;
+  }
+.topnav a:active {
+    background-color: #ddd;
+    color: black;
+}
+
+#header 
+{
+    width: 100%;
+    border-color: #908EDF;
+    height: 500;
+}
+
